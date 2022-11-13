@@ -1,0 +1,46 @@
+html {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: auto;
+}
+
+header a {
+    color: white;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
